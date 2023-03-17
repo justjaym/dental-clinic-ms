@@ -1,0 +1,112 @@
+landing
+ membership(click here)
+  -prc no
+  -name
+  -address
+  -file attach
+  -qr(fixed picture)
+
+ dental clinic request(click here)
+  -email
+  -file attach
+   -business permit
+   -nbi
+   -birth cert
+   -prc (id)
+
+super admin
+ membership
+  -import csv/excel
+ create clinic
+  -first name
+  -last name
+  -prc no
+
+dental admin/dental clerk/dentist
+ -add time
+
+patient
+ -calendar appointment
+
+dental admin/dental clerk/dentist
+ add date created
+ -calendar appointment
+
+patient
+ checkout
+  -add time
+  -select dentist
+
+
+dental admin/dental clerk/dentist
+ view appointment separate cart & details
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+print appointment details - to follow
+mode of payment(braces) - Partial, logic
+
+dental admin////
+ -upload picture teeth appointment////
+validate duplicate - fields servicess products edit details//
+
+reject(reschedule)//
+filter services//
+
+validate calendar 8-5 hrs///
+
+SUPER ADMIN
+  dental clinic
+    -rename requirement attachment in clinic account creation NBI -> brgy clearance, brith cert -> DTI
+    -add attachment mayors permit//
+    -add fields in creation of dental clinic accountfirst name, last name,prc//
+    -created date//
+    -clinics send email,first name,lastname upon creation of clinic account (dental clinic account admin)//
+  members
+    -created date//
+
+Dental Admin/Patient - View Appointments Page
+  -appointment filter status//
+  -view rececipt
+    hours computation//
+
+
+SUPER SUPER ADMIN (new user)
+-viewing//
+
+
+include dental admin in dentist picker//
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+✓admin
+✓clinics
+ ✓edit/delete
+cms
+
+✓dental admin
+ appointment
+  view/change status(accept/reject/pending)
+   paid/unpaid
+✓clinics
+ ✓edit
+
+✓patient
+ ✓clinics
+  ✓service
+   ✓add to cart/checkout
+ appointment
+
+pending/accepted/rejceted
+
+dental admin
+ manage staff
+  edit/delete
+ service
+  edit/delete
+ product
+  edit/delete
+
+dental admin/admin/patient
+ menu logout
+
